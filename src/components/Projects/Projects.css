@@ -1,0 +1,13 @@
+.btn {
+    background:#00B050;
+    z-index: 1;
+    border: none;
+    color: #fff;
+    -webkit-transition: color .3s,background .3s,border .3s;
+    transition: color .3s,background .3s,border .3s;
+    font-size: 10px;
+    line-height: 18px;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-decoration: none!important;
+}

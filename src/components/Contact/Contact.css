@@ -1,0 +1,17 @@
+.form__control:active, .form__control:focus {
+    box-shadow: 0 0 8px rgba(0, 176, 80,.5);
+    outline: none;
+    border: 1px solid rgb(0, 176, 80);
+}
+.form__control {
+    display: block;
+    padding: 10px 15px!important;
+    width: 100%;
+    margin: 15px 0;
+    /* background: #202e54; */
+    color: rgb(0, 176, 80);
+    border: 1px solid transparent;
+    -webkit-transition: rgb(0, 176, 80) .3s,border .3s;
+    transition: rgb(0, 176, 80) .3s,border .3s;
+    border-bottom: 2px solid rgb(0, 176, 80);
+}
